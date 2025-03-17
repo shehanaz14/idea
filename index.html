@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Incubator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Idea Incubator</h1>
+    <p class="description">
+        Have a great idea but don’t know how to bring it to life? Submit your idea here, 
+        and we’ll provide step-by-step guidelines, required skills, and technologies 
+        to help you turn it into reality!
+    </p>
+    <form id="ideaForm">
+        <input type="text" id="title" placeholder="Idea Title" required><br><br>
+        <textarea id="description" placeholder="Describe your idea..." required></textarea><br><br>
+        <button type="submit">Submit Idea</button>
+    </form>
+
+    <h2>Submitted Ideas</h2>
+    <div id="ideasList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
